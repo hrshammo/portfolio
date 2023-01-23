@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  width: 100%;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.hem36 {
+  left: 0;
+  cursor: pointer;
+}
+.hem36,
+.ladda-ned-cv1,
+.om1,
+.portfolio2 {
+  text-decoration: none;
+  position: absolute;
+  top: 17px;
+  color: inherit;
+  display: inline-block;
+  width: 96px;
+  height: 24px;
+}
+.portfolio2 {
+  left: 192px;
+  cursor: pointer;
+}
+.ladda-ned-cv1,
+.om1 {
+  left: 96px;
+}
+.ladda-ned-cv1 {
+  text-decoration: underline;
+  top: 23px;
+  left: 1209px;
+  width: 128px;
+  height: 36px;
+}
+.diana-girma1,
+.header1 {
+  position: absolute;
+  height: 82px;
+}
+.diana-girma1 {
+  text-decoration: none;
+  top: 0;
+  left: 501px;
+  font-size: var(--font-size-4xl);
+  font-family: var(--font-redressed);
+  color: inherit;
+  display: inline-block;
+  width: 356px;
+  cursor: pointer;
+}
+.header1 {
+  top: 60px;
+  left: 57px;
+  width: 1337px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-italiana);
+}
+.photo-1649463987633-a87ba4e430-icon {
+  position: absolute;
+  top: 142px;
+  left: 657px;
+  width: 418px;
+  height: 676px;
+  object-fit: cover;
+}
+.om-mig1 {
+  cursor: pointer;
+  position: absolute;
+  top: 440px;
+  left: 229px;
+  text-transform: capitalize;
+  color: #2d2a2a;
+  display: inline-block;
+  width: 473px;
+  height: 59px;
+}
+.om-mig-child {
+  position: absolute;
+  top: 170px;
+  left: 53px;
+  width: 100px;
+  height: 100px;
+}
+.min-bakgrund,
+.min-egen-bakgrund {
+  position: absolute;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.min-bakgrund {
+  top: 220px;
+  left: 67px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.13em;
+  text-align: left;
+  width: 324px;
+  height: 71px;
+}
+.min-egen-bakgrund {
+  cursor: pointer;
+  top: 327px;
+  left: 55px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.1em;
+  width: 383px;
+  height: 85px;
+  backdrop-filter: blur(4px);
+  mix-blend-mode: darken;
+}
+.om-mig-item {
+  position: absolute;
+  top: 425px;
+  left: 1018px;
+  width: 335px;
+  height: 324px;
+  cursor: pointer;
+}
+.min-portfolio1 {
+  text-decoration: underline;
+  position: absolute;
+  top: 563px;
+  left: 1104px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: inherit;
+  text-align: left;
+  display: inline-block;
+  width: 225px;
+  height: 47px;
+}
+.a4 {
+  position: absolute;
+  left: 111px;
+  height: 35px;
+  background-image: url(./public/1384015-1@3x.png);
+}
+.a4,
+.a5,
+.a6 {
+  text-decoration: none;
+  top: 0;
+  width: 35px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.a5 {
+  position: absolute;
+  left: 0;
+  height: 35px;
+  background-image: url(./public/64221991@3x.png);
+}
+.a6 {
+  left: 333px;
+  background-image: url(./public/3669688-1@3x.png);
+}
+.a6,
+.a7,
+.icon5 {
+  position: absolute;
+  height: 35px;
+}
+.a7 {
+  text-decoration: none;
+  top: 0;
+  left: 222px;
+  width: 35px;
+  background-image: url(./public/13840141-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.icon5 {
+  top: 848px;
+  left: 546px;
+  width: 368px;
+}
+.dianahotmailse,
+.som-person-jag {
+  position: absolute;
+  letter-spacing: 0.1em;
+  font-family: var(--font-rubik);
+}
+.dianahotmailse {
+  text-decoration: underline;
+  top: 829px;
+  left: 55px;
+  font-size: var(--font-size-xs);
+  color: inherit;
+}
+.som-person-jag {
+  top: 587px;
+  left: 331px;
+  font-size: var(--font-size-2xs);
+  text-transform: uppercase;
+  display: inline-block;
+  width: 270px;
+  height: 146px;
+}
+.om-mig-child1,
+.om-mig-inner {
+  position: absolute;
+  top: 141px;
+  left: 657px;
+  width: 447px;
+  height: 707px;
+  object-fit: cover;
+}
+.om-mig-child1 {
+  top: 412px;
+  left: 66px;
+  width: 408px;
+  height: 350px;
+}
+.om-mig {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 899px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 96px;
+  color: var(--color-black);
+  font-family: var(--font-italiana);
+}
